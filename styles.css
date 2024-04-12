@@ -534,7 +534,7 @@ footer {
 
   #check:checked ~ .nav__menu__inner {
     height: calc(100vh - 2rem);
-    width: calc(100vw - 3rem);
+    width: calc(100vw - 2rem);
   }
 
   #check:checked ~ .nav__menu__inner a {
@@ -667,11 +667,11 @@ footer {
   :root {
     --marquee-width: 100vw;
     --marquee-height: 10vh;
-    --marquee-elements-displayed: 1;
+    --marquee-elements-displayed: 0.5;
   }
 
   .marquee-content li {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .marquee:before,
