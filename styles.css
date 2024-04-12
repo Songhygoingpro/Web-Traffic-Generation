@@ -297,7 +297,6 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 2rem;
 }
 
 .intro__page__title {
@@ -327,9 +326,17 @@ input[type="radio"] {
 }
 
 .intro__page__item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap:2rem;
+}
+
+.intro__page__item__image-wrapper {
+flex:1;
+}
+
+.intro__page__item-content {
+flex:1;
 }
 
 .intro__page__item-title-wrapper {
@@ -594,6 +601,13 @@ footer {
     align-items: center;
   }
   
+  .intro__page__item__tf {
+    flex-direction: column;
+  }
+
+  .intro__page__item__mf {
+    flex-direction: column-reverse;
+  }
 
   input[type="radio"] {
     width: 1rem;
