@@ -210,7 +210,7 @@ button {
 .question__box {
   height: fit-content;
   padding: 2rem;
-  border-radius: 27px;
+  border-radius: 26px;
   background: #ffffff;
   width: fit-content;
   display: grid;
@@ -555,6 +555,17 @@ footer {
     font-size: 1.5rem;
     margin-top: 0;
   }
+
+  .answer__wrapper p,
+  .answer__options label {
+    font-size: 16px;
+  }
+
+  .question__box {
+    padding: 0.5rem;
+    border-radius: 16px;
+    gap: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -565,6 +576,11 @@ footer {
   .header__button,
   .hero__page__text__button {
     padding: 10px 20px;
+  }
+
+  .answer__wrapper p,
+  .answer__options label {
+    font-size: 18px;
   }
 }
 
@@ -577,10 +593,7 @@ footer {
     display: flex;
     align-items: center;
   }
-  .answer__wrapper p,
-  .answer__options label {
-    font-size: 18px;
-  }
+  
 
   input[type="radio"] {
     width: 1rem;
