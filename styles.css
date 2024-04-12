@@ -397,7 +397,7 @@ div .table__image {
   height: auto;
 }
 
-.table__record {
+.table__record__title {
   font-size: 1.5rem;
 }
 
@@ -573,6 +573,26 @@ footer {
     border-radius: 16px;
     gap: 1rem;
   }
+
+  .intro__page__title {
+    font-size: 30px;
+  }
+
+  .intro__page__item-title, .table__record__title {
+    font-size: 16px;
+  }
+
+  .intro__page__item-text, .table__record__text {
+    font-size: 12px;
+  }
+
+  .percentage {
+    font-size: 18px;
+  }
+
+  td {
+    padding: 0.2rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -588,6 +608,18 @@ footer {
   .answer__wrapper p,
   .answer__options label {
     font-size: 18px;
+  }
+
+  .intro__page__title {
+    font-size: 36px;
+  }
+
+  .intro__page__item-title, .table__record__title {
+    font-size: 18px;
+  }
+
+  .intro__page__item-text, .table__record__text {
+    font-size: 14px;
   }
 }
 
@@ -617,6 +649,10 @@ footer {
   .question {
     font-size: 20px;
     text-align: center;
+  }
+
+  td {
+    padding: 0.5rem;
   }
 }
 
