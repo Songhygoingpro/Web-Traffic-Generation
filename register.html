@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="register__page">
+        <header>
+            <div class="nav__menu">
+                <input type="checkbox" id="check" />
+                <label for="check" id="checked" class="nav__menu__button">
+                    <span class="nav__menu__button__burger"></span>
+                    <span class="nav__menu__button__burger"></span>
+                    <span class="nav__menu__button__burger"></span>
+                </label>
+                <div class="nav__menu__inner">
+                    <div class="logo__wrapper">
+                        <h1 class="logo">Boost</h1>
+                    </div>
+                    <ul class="nav__menu__items">
+                        <li class="nav__menu__item"><a href="#">Services</a></li>
+                        <li class="nav__menu__item"><a href="#">Pricing</a></li>
+                        <li class="nav__menu__item"><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__inner inner">
+                <a href="">
+                    <h1 class="logo">Boost</h1>
+                </a>
+                <nav>
+                    <a class="nav__item" href="#">Services</a>
+                    <a class="nav__item" href="#">Pricing</a>
+                    <a class="nav__item" href="#">About us</a>
+                </nav>
+                <a href=""><button class="header__button">Registor Now</button></a>
+            </div>
+        </header>
+        <div class="register__page__inner">
+            <div class="register__page__form">
+                <div class="register__page__title">
+                    <p>Create an account</p>
+                </div>
+                <form action="#">
+                    <div class="register__page__user__details">
+                        <div class="register__page__input__box">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="register__page__input__box">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" placeholder="Enter your password" required>
+                        </div>
+                        <div class="register__page__input__box">
+                            <label for="confirmPass">Confirm Password</label>
+                            <input type="password" id="confirmPass" placeholder="Confirm your password" required>
+                        </div>
+                        <div class="register__page__term"><input type="checkbox" name="register"
+                                id="register__page__term"><label for="register__page__term">I agree to the terms and
+                                conditions,
+                                privacy policy, and cookie policy</label></div>
+                    </div>
+
+                    <div class="register__page__reg__btn">
+                        <input type="submit" value="Sign up">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer__inner">
+                <div class="logo">Boost</div>
+                <ul class="footer__nav__items">
+                    <li class="footer__nav__item">
+                        <h4 class="footer__nav__item__title">Contact</h4>
+                        <p class="footer__nav__item__content">Boost@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
