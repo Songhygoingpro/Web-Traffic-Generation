@@ -181,7 +181,7 @@ button {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  background: linear-gradient(to right, #f37a65, #d64141);
+  background: linear-gradient(to right, #f37a65, #e36414);
   border-radius: 5px;
   color: #ffffff;
   letter-spacing: 1px;
@@ -189,7 +189,7 @@ button {
 }
 
 .register__page__reg__btn input:hover {
-  background: linear-gradient(to right, #d64141, #f37a65);
+  background: linear-gradient(to right, #e36414, #f37a65);
 }
 
 footer {
