@@ -774,7 +774,7 @@ footer .logo {
 
 @media (max-width: 600px) {
   :root {
-    --marquee-width: 100vw;
+    --marquee-width: 120vw;
     --marquee-height: 10vh;
     --marquee-elements-displayed: 0.5;
   }
