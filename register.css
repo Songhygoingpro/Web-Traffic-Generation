@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 
-
 header {
   display: grid;
 }
@@ -132,6 +131,7 @@ header {
   .register__page {
     height: auto;
     grid-template-rows: 5rem 1fr;
+    padding-bottom: 3rem;
   }
 
   .register__page__user__details {
