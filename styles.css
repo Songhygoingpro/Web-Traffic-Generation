@@ -670,6 +670,24 @@ footer .logo {
   
 }
 
+@media screen and (max-width: 1280px) {
+
+  .answer__wrapper p,
+  .answer__options label {
+    font-size: 18px;
+  }
+
+  .question__box {
+    padding: 0.7rem;
+    border-radius: 18px;
+    gap: 1rem;
+  }
+
+  .question {
+    font-size: 20px;
+  }
+}
+
 /*scrolling text*/
 :root {
   --marquee-width: 200vw;
