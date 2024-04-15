@@ -45,21 +45,29 @@
         <div class="register__page__inner fadeInUp">
             <div class="register__page__form">
                 <div class="register__page__title">
-                    <p>Create an account</p>
+                    <p>Inquiry</p>
                 </div>
                 <form action="#">
                     <div class="register__page__user__details">
+                        <div class="register__page__input__box">
+                            <label for="full__name">Full Name</label>
+                            <input type="text" id="full__name" placeholder="Enter your full name" required>
+                        </div>
                         <div class="register__page__input__box">
                             <label for="email">Email</label>
                             <input type="email" id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="register__page__input__box">
-                            <label for="pass">Password</label>
-                            <input type="password" id="pass" placeholder="Enter your password" required>
+                            <label for="phone__number">Phone Number</label>
+                            <input type="number" id="phone__number" placeholder="Enter your phone number" required>
                         </div>
                         <div class="register__page__input__box">
-                            <label for="confirmPass">Confirm Password</label>
-                            <input type="password" id="confirmPass" placeholder="Confirm your password" required>
+                            <label for="company__name">Company Name</label>
+                            <input type="number" id="company__name" placeholder="Enter your company name" required>
+                        </div>
+                        <div class="register__page__input__box">
+                            <label for="inquiry__contents">Inquiry contents</label>
+                            <textarea type="number" id="inquiry__contents" placeholder="What type of website are you interested in building?" required></textarea>
                         </div>
                         <div class="register__page__term"><input type="checkbox" name="register"
                                 id="register__page__term"><label for="register__page__term">I agree to the terms and
@@ -73,30 +81,31 @@
                 </form>
             </div>
         </div>
-        
-    </div><footer>
-            <div class="footer__inner">
-                <div class="logo reveal">Boost</div>
-                <ul class="footer__nav__items reveal">
-                    <li class="footer__nav__item">
-                        <h4 class="footer__nav__item__title">Contact</h4>
-                        <p class="footer__nav__item__content">Boost@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+
+    </div>
+    <footer>
+        <div class="footer__inner">
+            <div class="logo reveal">Boost</div>
+            <ul class="footer__nav__items reveal">
+                <li class="footer__nav__item">
+                    <h4 class="footer__nav__item__title">Contact</h4>
+                    <p class="footer__nav__item__content">Boost@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
     <script>
-    document.addEventListener("scroll", function() {
-        var pageTop = window.pageYOffset;
-        var pageBottom = pageTop + window.innerHeight;
-        var tags = document.querySelectorAll(".reveal");
-      
-        tags.forEach(function(tag) {
-          if (tag.offsetTop < pageBottom) {
-            tag.classList.add("active");
-          } 
-        });
-      });</script>
+        document.addEventListener("scroll", function () {
+            var pageTop = window.pageYOffset;
+            var pageBottom = pageTop + window.innerHeight;
+            var tags = document.querySelectorAll(".reveal");
+
+            tags.forEach(function (tag) {
+                if (tag.offsetTop < pageBottom) {
+                    tag.classList.add("active");
+                }
+            });
+        });</script>
 </body>
 
 </html>

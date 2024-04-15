@@ -706,7 +706,7 @@ footer .logo {
 #root {
   --marquee-width: 200vw;
   --marquee-height: 10vh;
-  --marquee-elements-displayed: 3;
+  --marquee-elements-displayed: 3.5;
   --marquee-element-width: calc(
     var(--marquee-width) / var(--marquee-elements-displayed)
   );
@@ -803,5 +803,49 @@ footer .logo {
     --marquee-height: 10vh;
     --marquee-elements-displayed: 1.5;
   }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+.reveal{
+  transform: translate(0,100px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+
+.reveal.active{
+  transform: translate(0,0);
+  opacity: 1;
 }
 
