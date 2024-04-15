@@ -379,9 +379,9 @@ font-weight: 400;
   height: auto;
 }
 
-.table__image-wrapper {
+.table__image__wrapper {
   display: flex;
-  align-items: center;
+  align-items:end;
   justify-content: center;
   flex-direction: row;
   max-width: 100%;
@@ -563,7 +563,7 @@ footer .logo {
     display: none;
   }
 
-  .table__image-wrapper {
+  .table__image__wrapper {
     flex-direction: column;
   }
 
