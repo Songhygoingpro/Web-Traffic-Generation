@@ -706,7 +706,7 @@ footer .logo {
 :root {
   --marquee-width: 200vw;
   --marquee-height: 10vh;
-  --marquee-elements-displayed: 4;
+  --marquee-elements-displayed: 3;
   --marquee-element-width: calc(
     var(--marquee-width) / var(--marquee-elements-displayed)
   );
@@ -765,6 +765,7 @@ footer .logo {
   max-height: 100%;
   font-size: 24px;
   white-space: nowrap;
+  gap:1rem;
 }
 
 .marquee-content li img {
@@ -774,9 +775,9 @@ footer .logo {
 
 @media (max-width: 600px) {
   :root {
-    --marquee-width: 100vw;
+    --marquee-width: 150vw;
     --marquee-height: 10vh;
-    --marquee-elements-displayed: 0.5;
+    --marquee-elements-displayed: 1.5;
   }
 
   .marquee-content li {
@@ -788,11 +789,11 @@ footer .logo {
     width: 5rem;
   }
 }
-@media (max-width: 1024px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
   :root {
     --marquee-width: 170vw;
     --marquee-height: 10vh;
-    --marquee-elements-displayed: 2;
+    --marquee-elements-displayed: 1.7;
   }
 }
 
