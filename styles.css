@@ -686,6 +686,20 @@ footer .logo {
   .question {
     font-size: 20px;
   }
+
+  input[type="radio"] {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .answer {
+    padding: 5px;
+  }
+
+  .answer img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /*scrolling text*/
