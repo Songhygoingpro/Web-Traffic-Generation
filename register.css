@@ -133,4 +133,14 @@ header {
     height: auto;
     grid-template-rows: 5rem 1fr;
   }
+
+  .register__page__user__details {
+    gap: 0;
+    padding: 25px;
+  }
+
+  .register__page__form .register__page__title {
+    padding:0 25px;
+    padding-top: 25px;
+  }
 }
