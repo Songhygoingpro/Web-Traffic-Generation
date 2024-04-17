@@ -340,7 +340,7 @@ input[type="radio"] {
   gap:2rem;
 }
 
-.intro__page__item__image-wrapper {
+.intro__page__item__image__wrapper {
 flex:1;
 }
 
@@ -348,29 +348,29 @@ flex:1;
 flex:1;
 }
 
-.intro__page__item-title-wrapper {
+.intro__page__item__title-wrapper {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.intro__page__item-title {
+.intro__page__item__title {
   font-size: 24px;
   font-weight: 600;
 }
 
-.intro__page__item-title span {
+.intro__page__item__title span {
 font-weight: 400;
 }
 
-.intro__page__item__image-wrapper .intro__page__item-image {
+.intro__page__item__image__wrapper .intro__page__item__image {
   width: 100%;
   height: auto;
   object-fit: fit;
   margin: 0;
 }
 
-.intro__page__item__image-wrapper {
+.intro__page__item__image__wrapper {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -383,7 +383,7 @@ font-weight: 400;
   gap: 1rem;
 }
 
-.intro__page__item-image {
+.intro__page__item__image {
   max-width: 100%;
   height: auto;
 }
@@ -511,7 +511,6 @@ footer .logo {
     transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
   }
 
-  /* toggle icon animation */
   #check:checked ~ .nav__menu__button span:nth-child(1) {
     width: 100%;
     transform: rotate(45deg) translateY(6px) translateX(6px);
@@ -592,11 +591,11 @@ footer .logo {
     font-size: 30px;
   }
 
-  .intro__page__item-title, .table__record__title {
+  .intro__page__item__title, .table__record__title {
     font-size: 16px;
   }
 
-  .intro__page__item-text, .table__record__text {
+  .intro__page__item__text, .table__record__text {
     font-size: 12px;
   }
 
@@ -628,11 +627,11 @@ footer .logo {
     font-size: 36px;
   }
 
-  .intro__page__item-title, .table__record__title {
+  .intro__page__item__title, .table__record__title {
     font-size: 18px;
   }
 
-  .intro__page__item-text, .table__record__text {
+  .intro__page__item__text, .table__record__text {
     font-size: 14px;
   }
 }
@@ -669,7 +668,7 @@ footer .logo {
     padding: 0.5rem;
   }
 
-  .intro__page__item__image-wrapper p {
+  .intro__page__item__image__wrapper p {
     font-size:  12px;
   }
   
@@ -708,6 +707,10 @@ footer .logo {
 
   .hero__page {
     grid-template-rows: 15% 85%;
+  }
+
+  .inner {
+    padding: 0 3rem;
   }
 }
 

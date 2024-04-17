@@ -8,8 +8,6 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
   marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
 }
 
-
-
 document.addEventListener("scroll", function() {
   var pageTop = window.pageYOffset;
   var pageBottom = pageTop + window.innerHeight;
