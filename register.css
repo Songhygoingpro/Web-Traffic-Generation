@@ -85,6 +85,10 @@
   transition: all 120ms ease-out 0s;
 }
 
+.register__page__input__box textarea::placeholder {
+  padding-top: 0.5rem;
+}
+
 .register__page__term {
   display: flex;
   gap: 0.5rem;
