@@ -45,7 +45,7 @@ td {
   align-items: center;
   justify-self: self-start;
   width: 100vw;
-  padding: 1rem 1rem;
+  padding: 0 1rem;
 }
 
 .header__button {
@@ -675,7 +675,7 @@ footer .logo {
   
 }
 
-@media screen and (max-width: 1536px) {
+@media screen and (min-width: 1024px) and (max-width: 1536px) {
 
   .answer__wrapper p,
   .answer__options label {
@@ -704,6 +704,10 @@ footer .logo {
   .answer img {
     width: 24px;
     height: 24px;
+  }
+
+  .hero__page {
+    grid-template-rows: 15% 85%;
   }
 }
 
