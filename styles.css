@@ -108,8 +108,7 @@ button {
 }
 
 .inner {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 3rem 1rem;
 }
 
 .hero__page__inner {
@@ -207,7 +206,8 @@ button {
 .question__page__inner {
   width: 100%;
   height: 100%;
-  padding: 0 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   justify-content: center;
   background-color: #272727;
@@ -324,7 +324,7 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 1rem;
+  /* padding: 4rem 1rem; */
   gap: 1.5rem;
 }
 
@@ -730,7 +730,7 @@ div .table__image {
 
 @media screen and (min-width: 768px) {
   .inner {
-    padding: 4rem 3rem;
+    padding: 3rem;
   }
 }
 
