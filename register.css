@@ -46,7 +46,7 @@
   left: 0;
   width: 30px;
   height: 3px;
-  background: linear-gradient(to right,#4F8BC9 ,#254D73 );
+  background: linear-gradient(to right,#59ABFF ,#254D73 );
 }
 
 .register__page__user__details {
@@ -100,7 +100,7 @@
 .register__page__input__box input:valid,
 .register__page__input__box textarea:focus,
 .register__page__input__box textarea:valid {
-  box-shadow: 0px 0px 0px 2px #4F8BC9;
+  box-shadow: 0px 0px 0px 2px #59ABFF;
 }
 
 .register__page__reg__btn {
@@ -115,7 +115,7 @@
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  background: linear-gradient(to right, #4F8BC9 ,#254D73);
+  background: linear-gradient(to right, #59ABFF ,#254D73);
   border-radius: 5px;
   color: #ffffff;
   letter-spacing: 1px;
@@ -123,7 +123,7 @@
 }
 
 .register__page__reg__btn input:hover {
-  background: linear-gradient(to right, #254D73 ,#4F8BC9);
+  background: linear-gradient(to right, #254D73 ,#59ABFF);
 }
 
 #inquiry__contents {

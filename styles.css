@@ -49,8 +49,8 @@ td {
 }
 
 .header__button {
-  border: 1px solid #4f8bc9;
-  color: #4f8bc9;
+  border: 1px solid #59ABFF;
+  color: #59ABFF;
   background-color: white;
   padding: 15px 30px;
   transition: all ease 0.3s;
@@ -58,7 +58,7 @@ td {
 }
 
 .header__button:hover {
-  background-color: #4f8bc9;
+  background-color: #59ABFF;
   color: white;
 }
 
@@ -81,7 +81,7 @@ td {
   bottom: -2px;
   width: 0;
   height: 2px;
-  background-color: #4f8bc9;
+  background-color: #59ABFF;
   transition: width 0.3s ease;
 }
 
@@ -177,7 +177,7 @@ button {
 }
 
 .hero__page__text__button {
-  background-color: #4f8bc9;
+  background-color: #59ABFF;
   padding: 15px 30px;
   font-weight: 500;
   color: #ffffff;
@@ -492,7 +492,7 @@ div .table__image {
   .nav__menu__button {
     width: 48px;
     height: 48px;
-    background: #4f8bc9;
+    background: #59ABFF;
     padding: 12px;
     display: inline-block;
     cursor: pointer;
@@ -509,7 +509,7 @@ div .table__image {
   }
 
   .nav__menu__button:hover {
-    background: #4f8bc9;
+    background: #59ABFF;
   }
 
   .nav__menu__button span {
@@ -545,7 +545,7 @@ div .table__image {
     width: 0;
     height: 0;
     border-radius: 6px;
-    background: #4f8bc9;
+    background: #59ABFF;
     transition: width ease-out 0.3s, height ease-out 0.3s;
   }
 
