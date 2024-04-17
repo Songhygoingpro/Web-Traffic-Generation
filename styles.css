@@ -45,7 +45,7 @@ td {
   align-items: center;
   justify-self: self-start;
   width: 100vw;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 .header__button {
@@ -62,20 +62,30 @@ td {
   color: white;
 }
 
-nav {
+.nav__items {
   display: flex;
   gap: 1.5rem;
 }
 
-.nav__item {
+.nav__item a {
   color: rgb(73, 73, 73);
-  font-weight: 600;
+  font-weight: 600;position: relative;
+  text-decoration: none;
 }
 
-.nav__item:hover {
-  text-underline-offset: 8px;
-  color: black;
-  text-decoration: underline;
+.nav__item a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #E36414;
+  transition: width 0.3s ease;
+}
+
+.nav__item a:hover::after {
+  width: 100%;
 }
 
 .nav__menu {
@@ -199,7 +209,6 @@ button {
   display: flex;
   justify-content: center;
   background-color: #272727;
-  /* background-color: rgb(223, 214, 237); */
 }
 
 .question__box__wrapper {
@@ -532,7 +541,7 @@ footer .logo {
     transition: width ease-out 0.3s, height ease-out 0.3s;
   }
 
-  .nav__menu__inner a {
+  .nav__menu__inner .nav__menu__item a {
     text-decoration: none;
     display: block;
     font-size: 48px;
@@ -544,9 +553,6 @@ footer .logo {
     transform-origin: top;
   }
 
-  .nav__menu__inner a:hover {
-    opacity: 1;
-  }
 
   #check:checked ~ .nav__menu__inner {
     height: calc(100vh - 2rem);
@@ -555,7 +561,6 @@ footer .logo {
 
   #check:checked ~ .nav__menu__inner a {
     padding: 10px;
-    /* opacity: 0.6; */
     transform: scale(1);
   }
 
@@ -805,6 +810,7 @@ footer .logo {
   }
 }
 
+/*scrolling animation*/
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
