@@ -197,20 +197,18 @@ button {
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  background-color: #272727;
 }
 
 .question__page__inner {
   width: 100%;
-  height: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
-  display: flex;
-  justify-content: center;
-  background-color: #272727;
+  display: flex;flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 .question__box__wrapper {
@@ -622,7 +620,11 @@ div .table__image {
     align-items: start;
     gap: 2rem;
   }
-  
+
+  .logo {
+    width: 180px; 
+    height: 20px; 
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -656,11 +658,10 @@ div .table__image {
 }
 
 @media screen and (max-width: 1024px) {
-  .question__page {
+  .question__page__inner {
     flex-direction: column-reverse;
     height: auto;
     gap: 2rem;
-    padding: 1rem 0;
     display: flex;
     align-items: center;
   }
@@ -689,6 +690,10 @@ div .table__image {
 
   .intro__page__item__image__wrapper p {
     font-size: 12px;
+  }
+
+  .question__page { 
+    height: auto;
   }
 }
 
@@ -724,6 +729,11 @@ div .table__image {
 
   .hero__page {
     grid-template-rows: 15% 85%;
+  }
+
+  .logo {
+    width: 220px; 
+    height: 25px; 
   }
 
 }
