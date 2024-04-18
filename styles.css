@@ -558,10 +558,10 @@ div .table__image {
     font-size: 48px;
     text-align: left;
     font-weight: 600;
-    transition: all 0.4s cubic-bezier(0.22, 0.43, 0.35, 1.5);
     opacity: 0.6;
     transform: scale(0);
     transform-origin: top;
+    color: white;
   }
 
   #check:checked ~ .nav__menu__inner {
