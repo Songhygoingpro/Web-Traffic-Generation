@@ -92,13 +92,13 @@ td {
   display: none;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 button {
   cursor: pointer;
+}
+
+a {
+  width: fit-content;
+  height: fit-content;
 }
 
 .logo {
@@ -151,12 +151,12 @@ button {
   padding-right: 1rem;
 }
 
-.image__container {
+.hero__image__container {
   position: relative;
   display: inline-block;
 }
 
-.image__container img {
+.hero__image__container img {
   position: relative;
   display: block;
   width: 100%;
