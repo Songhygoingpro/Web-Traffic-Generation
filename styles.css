@@ -488,6 +488,10 @@ div .table__image {
     display: inline-block;
   }
 
+  .nav__menu__items {
+    overflow: auto;
+  }
+
   #check {
     display: none;
   }
