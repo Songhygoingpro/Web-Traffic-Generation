@@ -22,16 +22,13 @@
   max-width: 700px;
   height: auto;
   background: #ffffff;
-  border-radius: 0.5rem;
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
-    0px 5px 12px -2px rgba(0, 0, 0, 0.1), 0px 18px 36px -6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
 .register__page__form .register__page__title {
-  padding: 25px;
+  /* padding: 25px 0; */
 }
 
 .register__page__form .register__page__title p {
@@ -52,8 +49,7 @@
 
 .register__page__user__details {
   display: grid;
-  gap: 20px;
-  padding: 25px;
+  gap: 2rem;
 }
 
 .register__page__user__details .register__page__input__box {
@@ -93,6 +89,11 @@
   align-items: start;
 }
 
+.register__page__input__box {
+  display: grid;
+  gap:0.5rem;
+}
+
 .register__page__input__box input:focus,
 .register__page__input__box input:valid,
 .register__page__input__box textarea:focus,
@@ -101,7 +102,7 @@
 }
 
 .register__page__reg__btn {
-  padding: 0 25px;
+  /* padding: 0 25px; */
   padding-bottom: 25px;
 }
 
@@ -136,11 +137,11 @@
 
   .register__page__user__details {
     gap: 0;
-    padding: 25px;
+    padding: 25px 0;
   }
 
   .register__page__form .register__page__title {
-    padding: 0 25px;
+    /* padding: 0 25px; */
     padding-top: 25px;
   }
 }
