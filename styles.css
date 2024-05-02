@@ -493,7 +493,7 @@ div .table__image {
   }
 
   .nav__menu__items {
-    overflow: auto;
+    /* overflow: auto; */
   }
 
   #check {
