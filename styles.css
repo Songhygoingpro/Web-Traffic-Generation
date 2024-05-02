@@ -438,7 +438,7 @@ div .table__image {
 
 @media screen and (max-width: 768px) {
   .hero__page {
-    height: 100dvh;
+    height: auto;
   }
 
   .nav__menu__logo {
@@ -473,7 +473,7 @@ div .table__image {
   }
 
   .hero__page__inner {
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 
   .logo__wrapper {
