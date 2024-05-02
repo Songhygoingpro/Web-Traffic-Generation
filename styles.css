@@ -33,9 +33,10 @@ td {
 .hero__page {
   height: 100vh;
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows:6rem 1fr; 
   overflow-x: hidden;
   align-items: center;
+  background-color:#254d73 ;
 }
 
 .header__inner {
@@ -45,6 +46,8 @@ td {
   justify-self: self-start;
   width: 100vw;
   padding: 0 1rem;
+  height: 6rem;
+  background-color: white;
 }
 
 .header__button {
@@ -108,14 +111,15 @@ a {
 
 .inner {
   padding: 3rem 1rem;
+  
 }
 
 .hero__page__inner {
-  width: 100%;
-  height: 100%;
+  max-width: 1280px;
+  height: auto;
   display: flex;
   justify-content: center;
-  background-color: #254d73;
+  justify-self: center;
 }
 
 .hero__page__content {
@@ -192,35 +196,35 @@ a {
   transform: translate(3px, 3px);
 }
 
+.question {
+  text-align: center;
+}
+
 .question__page {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #272727;
+  background-color: white;
 }
 
 .question__page__inner {
-  width: 100%;
+  max-width: 1280px;
   padding-left: 1rem;
   padding-right: 1rem;
-  display: flex;flex-direction: row;
-  justify-content: space-around;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
 .question__box__wrapper {
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 
 .question__box {
   height: fit-content;
-  padding: 2rem;
-  border-radius: 26px;
-  background: #ffffff;
-  width: fit-content;
   display: grid;
   gap: 1.5rem;
 }
@@ -258,7 +262,7 @@ a {
   right: 1rem;
   width: 100%;
   height: 100%;
-  border: 2px solid white;
+  border: 2px solid black;
   z-index: 1;
   border-radius: 26px;
 }
@@ -273,7 +277,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-size: 20px;
+  /* font-size: 20px; */
   border: 1px solid black;
   padding: 0.5rem;
   border-radius: 6px;
@@ -435,7 +439,6 @@ div .table__image {
 }
 
 @media screen and (max-width: 768px) {
-  
   .hero__page {
     height: auto;
   }
@@ -463,6 +466,7 @@ div .table__image {
     flex-direction: column;
     width: 100%;
     height: auto;
+    gap:3rem;
   }
 
   .header__inner {
@@ -591,14 +595,14 @@ div .table__image {
     margin-top: 0;
   }
 
-  .answer__wrapper p,
+  /* .answer__wrapper p,
   .answer__options label {
     font-size: 16px;
-  }
+  } */
 
   .question__box {
-    padding: 0.5rem;
-    border-radius: 16px;
+    /* padding: 0.5rem; */
+    /* border-radius: 16px; */
     gap: 1rem;
   }
 
@@ -650,10 +654,10 @@ div .table__image {
     padding: 10px 20px;
   }
 
-  .answer__wrapper p,
+  /* .answer__wrapper p,
   .answer__options label {
     font-size: 18px;
-  }
+  } */
 
   .intro__page__title {
     font-size: 36px;
@@ -672,11 +676,17 @@ div .table__image {
 
 @media screen and (max-width: 1024px) {
   .question__page__inner {
-    flex-direction: column-reverse;
-    height: auto;
     gap: 2rem;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .question__page__image__wrapper {
+    order: 2;
+  }
+
+  .question__box__wrapper {
+    order: 1;
   }
 
   .intro__page__item__tf {
@@ -687,15 +697,15 @@ div .table__image {
     flex-direction: column-reverse;
   }
 
-  input[type="radio"] {
+  /* input[type="radio"] {
     width: 1rem;
     height: 1rem;
-  }
+  } */
 
-  .question {
+  /* .question {
     font-size: 20px;
     text-align: center;
-  }
+  } */
 
   td {
     padding: 0.5rem;
@@ -711,38 +721,32 @@ div .table__image {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1536px) {
-  .answer__wrapper p,
+  /* .answer__wrapper p,
   .answer__options label {
     font-size: 18px;
-  }
+  } */
 
-  .question__box {
-    padding: 0.7rem;
-    border-radius: 18px;
+  /* .question__box {
     gap: 1rem;
   }
 
   .question {
     font-size: 20px;
-  }
+  } */
 
-  input[type="radio"] {
+  /* input[type="radio"] {
     width: 1.2rem;
     height: 1.2rem;
-  }
+  } */
 
-  .answer {
+  /* .answer {
     padding: 5px;
   }
 
   .answer img {
     width: 24px;
     height: 24px;
-  }
-
-  .hero__page {
-    grid-template-rows: 15% 85%;
-  }
+  } */
 
   .logo {
     width: 220px; 
@@ -752,9 +756,9 @@ div .table__image {
 }
 
 @media screen and (min-width: 768px) {
-  .inner {
+  /* .inner {
     padding: 3rem;
-  }
+  } */
 }
 
 /*scrolling text*/
