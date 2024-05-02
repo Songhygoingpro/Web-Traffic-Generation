@@ -638,6 +638,11 @@ div .table__image {
     width: 180px; 
     height: 20px; 
   }
+
+  input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
