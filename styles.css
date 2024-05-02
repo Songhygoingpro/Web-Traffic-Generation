@@ -31,7 +31,7 @@ td {
 }
 
 .hero__page {
-  height: 100vh;
+  height: 100dvh;
   display: grid;
   grid-template-rows:6rem 1fr; 
   overflow-x: hidden;
