@@ -492,10 +492,6 @@ div .table__image {
     display: inline-block;
   }
 
-  .nav__menu__items {
-    /* overflow: auto; */
-  }
-
   #check {
     display: none;
   }
@@ -573,8 +569,8 @@ div .table__image {
   }
 
   #check:checked ~ .nav__menu__inner {
-    height: calc(100vh - 2rem);
-    width: calc(100vw - 2rem);
+    height: calc(100dvh - 2rem);
+    width: calc(100dvw - 2rem);
   }
 
   #check:checked ~ .nav__menu__inner a {
