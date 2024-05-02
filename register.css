@@ -3,7 +3,7 @@
 .register__page {
   height: 100vh;
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 6rem 1fr;
   overflow: hidden;
   align-items: center;
 }
