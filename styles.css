@@ -548,12 +548,16 @@ div .table__image {
     top: 1rem;
     right: 1rem;
     display: grid;
-    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-rows: 1fr auto 1fr;
     width: 0;
     height: 0;
     border-radius: 6px;
     background: #59ABFF;
     transition: width ease-out 0.3s, height ease-out 0.3s;
+  }
+
+  .nav__menu__items {
+    background-color: blue;
   }
 
   .nav__menu__inner .nav__menu__item a {
