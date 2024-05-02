@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
+
 .register__page {
   height: 100dvh;
   display: grid;
@@ -79,6 +80,10 @@
   transition: all 120ms ease-out 0s;
 }
 
+.register__page__input__box textarea {
+  height: 4rem;
+}
+
 .register__page__term {
   display: flex;
   gap: 0.5rem;
@@ -115,22 +120,18 @@
   background: linear-gradient(to right, #254D73 ,#59ABFF);
 }
 
-#inquiry__contents {
-  width: 100%;
-  height: 5rem;
-}
-
 @media screen and (max-width: 1536px) {
   .register__page {
-    height: 100dvh;
+    height: auto;
     grid-template-rows: 6rem 1fr;
   }
-
-
+  
 }
 
 @media screen and (max-width: 768px) {
   .register__page__inner {
     padding: 2rem 1rem;
   }
+
+  
 }
