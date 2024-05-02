@@ -31,7 +31,7 @@ td {
 }
 
 .hero__page {
-  height: 100dvh;
+  height: 100vh;
   display: grid;
   grid-template-rows:6rem 1fr; 
   overflow-x: hidden;
@@ -441,6 +441,7 @@ div .table__image {
 @media screen and (max-width: 768px) {
   .hero__page {
     height: 100dvh;
+    padding: 2rem 0;
   }
 
   .nav__menu__logo {
