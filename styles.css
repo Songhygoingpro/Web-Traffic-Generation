@@ -110,7 +110,7 @@ a {
 }
 
 .inner {
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .hero__page__inner {
@@ -473,7 +473,7 @@ div .table__image {
   }
 
   .hero__page__inner {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
   }
 
   .logo__wrapper {
@@ -650,11 +650,6 @@ div .table__image {
     padding: 10px 20px;
   }
 
-  /* .answer__wrapper p,
-  .answer__options label {
-    font-size: 18px;
-  } */
-
   .intro__page__title {
     font-size: 36px;
   }
@@ -693,16 +688,6 @@ div .table__image {
     flex-direction: column-reverse;
   }
 
-  /* input[type="radio"] {
-    width: 1rem;
-    height: 1rem;
-  } */
-
-  /* .question {
-    font-size: 20px;
-    text-align: center;
-  } */
-
   td {
     padding: 0.5rem;
   }
@@ -717,32 +702,6 @@ div .table__image {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1536px) {
-  /* .answer__wrapper p,
-  .answer__options label {
-    font-size: 18px;
-  } */
-
-  /* .question__box {
-    gap: 1rem;
-  }
-
-  .question {
-    font-size: 20px;
-  } */
-
-  /* input[type="radio"] {
-    width: 1.2rem;
-    height: 1.2rem;
-  } */
-
-  /* .answer {
-    padding: 5px;
-  }
-
-  .answer img {
-    width: 24px;
-    height: 24px;
-  } */
 
   .logo {
     width: 220px; 
@@ -751,11 +710,6 @@ div .table__image {
 
 }
 
-@media screen and (min-width: 768px) {
-  /* .inner {
-    padding: 3rem;
-  } */
-}
 
 /*scrolling text*/
 #root {
