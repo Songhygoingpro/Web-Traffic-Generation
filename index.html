@@ -398,12 +398,14 @@
   if (viewportWidth < 768) {
     AOS.init({
         duration: 1000,
-        offset: 50
+        offset: 100,
+        once: true
     });
   } else {
     AOS.init({
         duration: 1000,
-        offset: 200
+        offset: 200,
+        once: true
     });
   }
 });
