@@ -392,10 +392,23 @@
     </footer>
 <script src="script.js"></script>
 <script>
+    
+
+    window.addEventListener('load', function() {
+  var viewportWidth = window.innerWidth;
+
+  if (viewportWidth < 768) {
     AOS.init({
         duration: 1000,
         offset: 200
     });
+  } else {
+    AOS.init({
+        duration: 1000,
+        offset: 0
+    });
+  }
+});
 
     document.querySelectorAll('img').forEach((img) => {
         img.addEventListener('load', () => {
