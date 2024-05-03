@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="./img/NM-logo-tab.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -49,7 +51,7 @@
                 <a href="register.html"><button class="header__button">CONTACT</button></a>
             </div>
         </header>
-        <div class="register__page__inner fadeInUp">
+        <div class="register__page__inner" data-aos="fade-up">
             <div class="register__page__form">
                 <div class="register__page__title">
                     <p>Inquiry</p>
@@ -93,11 +95,11 @@
     <footer class="footer">
         <div class="footer__inner inner">
             <div class="footer__item">
-                <div class="reveal footer__logo__wrapper"><a href="#"><img class="logo"
+                <div class="footer__logo__wrapper"><a href="#"><img class="logo"
                             src="https://nextmake.site/wp-content/themes/next-make-theme/assets/images/common/nextlogo_white.png"
-                            alt=""></a></div>
-                <ul class="footer__nav__items reveal">
-                    <li class="footer__nav__item">
+                            alt="" data-aos="fade-up" data-aos-offset="0"></a></div>
+                <ul class="footer__nav__items" >
+                    <li class="footer__nav__item" data-aos="fade-up" data-aos-offset="0">
                         <h4 class="footer__nav__item__title">Contact</h4>
                         <p class="footer__nav__item__content">NextMake@gmail.com</p>
                     </li>
@@ -106,17 +108,11 @@
         </div>
     </footer></div>
     <script>
-        document.addEventListener("scroll", function () {
-            var pageTop = window.pageYOffset;
-            var pageBottom = pageTop + window.innerHeight;
-            var tags = document.querySelectorAll(".reveal");
-
-            tags.forEach(function (tag) {
-                if (tag.offsetTop < pageBottom) {
-                    tag.classList.add("active");
-                }
-            });
-        });</script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+      </script>
 </body>
 
 </html>

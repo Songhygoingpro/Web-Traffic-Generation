@@ -26,10 +26,6 @@ td {
   text-align: center;
 }
 
-.section {
-  overflow: hidden;
-}
-
 .hero__page {
   height: 100vh;
   display: grid;
@@ -37,6 +33,10 @@ td {
   overflow-x: hidden;
   align-items: center;
   background-color:#254d73 ;
+}
+
+.section {
+  overflow: hidden;
 }
 
 .header__inner {
@@ -276,7 +276,6 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* font-size: 20px; */
   border: 1px solid black;
   padding: 0.5rem;
   border-radius: 6px;
@@ -812,49 +811,4 @@ div .table__image {
     --marquee-height: 10vh;
     --marquee-elements-displayed: 1.5;
   }
-}
-
-/*scrolling animation*/
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.reveal {
-  transform: translate(0, 100px);
-  opacity: 0;
-  transition: 1.5s all ease;
-}
-
-.reveal.active {
-  transform: translate(0, 0);
-  opacity: 1;
 }
