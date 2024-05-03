@@ -73,12 +73,12 @@
     </section>
     <section class="section">
         <div class="question__page">
-            <div class="question__page__inner inner" data-aos="fade-up">
-                <div class="question__page__image__wrapper">
+            <div class="question__page__inner inner">
+                <div class="question__page__image__wrapper"  data-aos="fade-up">
                     <div class="question__page__image__container"><span class="overlays"></span><img
                             src="./img/resize-socialmedia.jpg" class="question__page__image" alt=""></div>
                 </div>
-                <div class="question__box__wrapper" >
+                <div class="question__box__wrapper" data-aos="fade-up">
                     <div class="question__box" >
                         <h2 class="question">What kind of Web/SNS channels do you have?</h2>
                         <ul class="answers">
@@ -392,20 +392,18 @@
     </footer>
 <script src="script.js"></script>
 <script>
-    
-
     window.addEventListener('load', function() {
   var viewportWidth = window.innerWidth;
 
   if (viewportWidth < 768) {
     AOS.init({
         duration: 1000,
-        offset: 200
+        offset: 50
     });
   } else {
     AOS.init({
         duration: 1000,
-        offset: 0
+        offset: 200
     });
   }
 });
