@@ -11,7 +11,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
-<body>
+<body data-scroll-container>
     <section class="hero__page section ">
         <header >
             <div class="nav__menu">
@@ -398,13 +398,11 @@
   if (viewportWidth < 768) {
     AOS.init({
         duration: 1000,
-        offset: 100,
         once: true
     });
   } else {
     AOS.init({
         duration: 1000,
-        offset: 200,
         once: true
     });
   }
@@ -414,7 +412,8 @@
         img.addEventListener('load', () => {
             AOS.refresh();
         })
-    })
+    });
+
   </script>
 </body>
 
